@@ -1,0 +1,11 @@
+[Unit]
+Description=Run example-job on a timer
+Requires=example-job.service
+
+[Timer]
+# Daily (see systemd.time for formats)
+OnCalendar=daily
+Persistent=true
+
+[Install]
+WantedBy=timers.target

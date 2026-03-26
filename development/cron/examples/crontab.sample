@@ -1,0 +1,18 @@
+# Sample crontab snippets — copy lines into: crontab -e
+# Use absolute paths. Log stderr and stdout for debugging.
+
+# Example env (optional)
+# SHELL=/bin/bash
+# PATH=/usr/local/bin:/usr/bin:/bin
+
+# Every day 03:15
+# 15 3 * * * /home/you/bin/backup.sh >> /home/you/logs/backup.log 2>&1
+
+# Every 15 minutes
+# */15 * * * * /home/you/bin/poll.sh >> /home/you/logs/poll.log 2>&1
+
+# Weekly Monday 09:00
+# 0 9 * * 1 /home/you/bin/report.sh >> /home/you/logs/report.log 2>&1
+
+# Test: every minute (remove after testing)
+# * * * * * date >> /tmp/cron-smoke.log 2>&1

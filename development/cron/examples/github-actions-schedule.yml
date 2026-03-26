@@ -1,0 +1,19 @@
+# Save as: .github/workflows/scheduled-example.yml
+# Schedules are UTC. See: https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule
+
+name: Scheduled example
+
+on:
+  schedule:
+    - cron: '15 3 * * *'   # 03:15 UTC daily
+  workflow_dispatch:       # lets you run manually from Actions tab
+
+jobs:
+  job:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run script
+        run: |
+          echo "Hello from schedule $(date -u)"
+          # ./scripts/your-task.sh

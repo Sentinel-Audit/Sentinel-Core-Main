@@ -1,0 +1,11 @@
+[Unit]
+Description=Example one-shot job
+After=network-online.target
+
+[Service]
+Type=oneshot
+# ExecStart=/usr/local/bin/your-script.sh
+ExecStart=/bin/bash -c 'echo example-job ran at $(date -u) >> /tmp/example-job.log'
+
+[Install]
+WantedBy=multi-user.target
