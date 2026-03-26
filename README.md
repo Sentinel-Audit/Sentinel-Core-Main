@@ -7,16 +7,17 @@ Educational articles, security-themed notes, and development material suitable f
 | Area | Path | Description |
 |------|------|-------------|
 | Security | [articles/security/](articles/security/) | Plain-language summaries of vulnerability themes (public contest context). |
-| AI tooling | [articles/ai/](articles/ai/) | Curated skills, MCP servers, and GitHub lists; see also [articles/ai/CURATED-AI-SOURCES-INDEX.md](articles/ai/CURATED-AI-SOURCES-INDEX.md). |
+| AI | [articles/ai/](articles/ai/) | Tools list, cookbooks, OpenAI notes, **h1-brain** README, **ai-agent-guardrails** (MIT). See [articles/ai/README.md](articles/ai/README.md). |
+| Resources | [resources/from-mcp-audit-methods/](resources/from-mcp-audit-methods/) | **12** Markdown guides copied from `~/solidity/MCP-Audit-methods` (bug bounty, references, fuzzing intro, etc.). [SOURCE.md](resources/from-mcp-audit-methods/SOURCE.md) |
 | Development | [development/cron/](development/cron/) | Scheduled jobs: Linux cron, systemd, GitHub Actions, Node, Docker/K8s, examples. |
 
 ## Optional next steps (on GitHub)
 
 1. Create a new repository under the **Sentinel-Audit** org (e.g. `knowledge-base` or `public-notes`).
-2. Copy or subtree this folder’s contents into that repo’s default branch.
+2. Push this folder’s contents to the default branch.
 3. Add an **MIT** or **CC-BY-4.0** license file if you want explicit redistribution terms.
 4. Optionally add a **`.github` profile** repository for the org landing page.
 
-## AI material — confirm before treating as final
+## AI + MCP snapshot status
 
-Some items under `client-ideas/ai/` are **large third-party trees** (e.g. full course checkouts) or **separate projects**. See [PENDING-AI-CONFIRMATION.md](PENDING-AI-CONFIRMATION.md) for what was included vs. what needs your approval before publishing.
+The previously “pending” AI items are now included under [articles/ai/](articles/ai/). See [PENDING-AI-CONFIRMATION.md](PENDING-AI-CONFIRMATION.md) for the checklist (historical).
