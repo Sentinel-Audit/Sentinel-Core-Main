@@ -5,6 +5,6 @@
 - **[ai-cookbooks/tinyfish-cookbook.md](ai-cookbooks/tinyfish-cookbook.md)** — Cookbook-style notes.
 - **[advanced-agents/h1-brain/README.md](advanced-agents/h1-brain/README.md)** — Overview of the external **h1-brain** (HackerOne MCP) project.
 - **[advanced-agents/ai-agent-guardrails/](advanced-agents/ai-agent-guardrails/)** — MIT-licensed patterns: `README`, `docs/`, `examples/*.ts`, `SKILL.md`, `LICENSE`.
-- **[CURATED-AI-SOURCES-INDEX.md](CURATED-AI-SOURCES-INDEX.md)** — What else exists under `client-ideas/ai/` locally (large trees not mirrored here).
+- **[CURATED-AI-SOURCES-INDEX.md](CURATED-AI-SOURCES-INDEX.md)** — Pointers to additional AI material not vendored in this repo (e.g. large upstream courses).
 
 **Licenses:** `ai-agent-guardrails` includes `LICENSE` (MIT). Other files are notes; verify before redistributing third-party excerpts.
